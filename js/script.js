@@ -206,10 +206,6 @@ const refreshScreen = () => {
         peopleShowing.forEach(p => {
             gallery.append(createCard(p));
         });
-    }else{
-        people.forEach(p => {
-            gallery.append(createCard(p));
-        });
     }
 }
 
